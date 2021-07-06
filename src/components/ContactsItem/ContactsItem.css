@@ -1,0 +1,15 @@
+.contact__item {
+  position: relative;
+}
+
+.contact__item:hover .contact__item-buttons {
+  opacity: 1;
+}
+
+.contact__item-buttons {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  opacity: 0;
+  transition: all 0.15s;
+}

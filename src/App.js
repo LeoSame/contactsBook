@@ -1,25 +1,39 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Container, Accordion, Card, Button } from 'react-bootstrap';
+import ContactsList from './components/ContactsList/ContactsList';
+import AddContact from './components/AddContact/AddContact';
+import UpdateContact from './components/UpdateContact/UpdateContact';
+import { useSelector } from 'react-redux';
+import { getUpdateContactSelector } from './store/contacts/selectors';
 import './App.css';
 
-function App() {
+const App = () => {
+  const { openModal } = useSelector(getUpdateContactSelector);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Container>
+        <h2 className='app__title'>This table is a test task from the company «Telecard-Device»</h2>
+        <Accordion>
+          <Card>
+            <Card.Header>
+              <Accordion.Toggle as={Button} variant='link' eventKey='0'>
+                Add contact
+              </Accordion.Toggle>
+            </Card.Header>
+            <Accordion.Collapse eventKey='0'>
+              <Card.Body>
+                <AddContact />
+              </Card.Body>
+            </Accordion.Collapse>
+          </Card>
+        </Accordion>
+
+        <ContactsList />
+      </Container>
+      {openModal && <UpdateContact />}
     </div>
   );
-}
+};
 
 export default App;

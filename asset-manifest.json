@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/contacts-book/static/css/main.15c3dc34.chunk.css",
-    "main.js": "/contacts-book/static/js/main.2c635f56.chunk.js",
-    "main.js.map": "/contacts-book/static/js/main.2c635f56.chunk.js.map",
-    "runtime-main.js": "/contacts-book/static/js/runtime-main.9680d06e.js",
-    "runtime-main.js.map": "/contacts-book/static/js/runtime-main.9680d06e.js.map",
-    "static/js/2.a47d11c2.chunk.js": "/contacts-book/static/js/2.a47d11c2.chunk.js",
-    "static/js/2.a47d11c2.chunk.js.map": "/contacts-book/static/js/2.a47d11c2.chunk.js.map",
-    "static/js/3.ed0fee9e.chunk.js": "/contacts-book/static/js/3.ed0fee9e.chunk.js",
-    "static/js/3.ed0fee9e.chunk.js.map": "/contacts-book/static/js/3.ed0fee9e.chunk.js.map",
-    "index.html": "/contacts-book/index.html",
-    "static/css/main.15c3dc34.chunk.css.map": "/contacts-book/static/css/main.15c3dc34.chunk.css.map",
-    "static/js/2.a47d11c2.chunk.js.LICENSE.txt": "/contacts-book/static/js/2.a47d11c2.chunk.js.LICENSE.txt"
+    "main.css": "/contactsBook/static/css/main.15c3dc34.chunk.css",
+    "main.js": "/contactsBook/static/js/main.2c635f56.chunk.js",
+    "main.js.map": "/contactsBook/static/js/main.2c635f56.chunk.js.map",
+    "runtime-main.js": "/contactsBook/static/js/runtime-main.3ad6efed.js",
+    "runtime-main.js.map": "/contactsBook/static/js/runtime-main.3ad6efed.js.map",
+    "static/js/2.a47d11c2.chunk.js": "/contactsBook/static/js/2.a47d11c2.chunk.js",
+    "static/js/2.a47d11c2.chunk.js.map": "/contactsBook/static/js/2.a47d11c2.chunk.js.map",
+    "static/js/3.ed0fee9e.chunk.js": "/contactsBook/static/js/3.ed0fee9e.chunk.js",
+    "static/js/3.ed0fee9e.chunk.js.map": "/contactsBook/static/js/3.ed0fee9e.chunk.js.map",
+    "index.html": "/contactsBook/index.html",
+    "static/css/main.15c3dc34.chunk.css.map": "/contactsBook/static/css/main.15c3dc34.chunk.css.map",
+    "static/js/2.a47d11c2.chunk.js.LICENSE.txt": "/contactsBook/static/js/2.a47d11c2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.9680d06e.js",
+    "static/js/runtime-main.3ad6efed.js",
     "static/js/2.a47d11c2.chunk.js",
     "static/css/main.15c3dc34.chunk.css",
     "static/js/main.2c635f56.chunk.js"
